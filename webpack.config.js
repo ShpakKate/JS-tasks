@@ -42,6 +42,7 @@ module.exports = {
         filename: 'index.js',
         publicPath: '/dist',
     },
+    devtool: 'eval-source-map',
     plugins: [
         /*new CleanWebpackPlugin(),*/
         new HtmlWebpackPlugin({

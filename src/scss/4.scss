@@ -1,0 +1,54 @@
+$border: 1px solid #000;
+$border-white: 1px solid #fff;
+
+.header {
+    height: 1.2rem;
+    background-color: #e4e4e4;
+    border-bottom: 2px solid #c6c7c8;
+}
+
+.main {
+    padding-left: 8rem;
+}
+
+.tab-nav {
+    border-bottom: $border;
+    display: inline-block;
+}
+
+.btn-tab {
+    width: 7rem;
+    height: 1.7rem;
+    transition: 0.25s;
+    border: none;
+    background: none;
+}
+
+.btn-tab.active {
+    border: $border;
+    border-bottom: none;
+    background: #cccccc;
+}
+
+.btn-link {
+    color: #551a8b;
+}
+
+.tab-content {
+    border: $border;
+    width: 37.5rem;
+    height: 9.3rem;
+    background-color: #cccccc;
+    box-shadow: 1px 1px 0px 0px rgba(252, 252, 252, 1) inset;
+    transition: 0.25s;
+}
+
+.tab-pane {
+    display: none;
+    border-top: $border-white;
+    border-left: $border-white;
+}
+
+.tab-pane.active {
+    display: block;
+}
